@@ -1,0 +1,40 @@
+.:
+total 20
+drwxr-xr-x 5 obaida_linux obaida_linux 4096 Oct  4 09:49 .
+drwxr-x--- 6 obaida_linux obaida_linux 4096 Oct  4 10:02 ..
+drwxr-xr-x 2 obaida_linux obaida_linux 4096 Oct  4 09:49 archives
+drwxr-xr-x 3 obaida_linux obaida_linux 4096 Oct  4 09:49 projects
+drwxr-xr-x 2 obaida_linux obaida_linux 4096 Oct  4 09:49 tools
+
+./archives:
+total 8
+drwxr-xr-x 2 obaida_linux obaida_linux 4096 Oct  4 09:49 .
+drwxr-xr-x 5 obaida_linux obaida_linux 4096 Oct  4 09:49 ..
+
+./projects:
+total 12
+drwxr-xr-x 3 obaida_linux obaida_linux 4096 Oct  4 09:49 .
+drwxr-xr-x 5 obaida_linux obaida_linux 4096 Oct  4 09:49 ..
+drwxr-xr-x 4 obaida_linux obaida_linux 4096 Oct  4 09:49 web
+
+./projects/web:
+total 16
+drwxr-xr-x 4 obaida_linux obaida_linux 4096 Oct  4 09:49 .
+drwxr-xr-x 3 obaida_linux obaida_linux 4096 Oct  4 09:49 ..
+drwxr-xr-x 2 obaida_linux obaida_linux 4096 Oct  4 09:49 backend
+drwxr-xr-x 2 obaida_linux obaida_linux 4096 Oct  4 09:49 frontend
+
+./projects/web/backend:
+total 8
+drwxr-xr-x 2 obaida_linux obaida_linux 4096 Oct  4 09:49 .
+drwxr-xr-x 4 obaida_linux obaida_linux 4096 Oct  4 09:49 ..
+
+./projects/web/frontend:
+total 8
+drwxr-xr-x 2 obaida_linux obaida_linux 4096 Oct  4 09:49 .
+drwxr-xr-x 4 obaida_linux obaida_linux 4096 Oct  4 09:49 ..
+
+./tools:
+total 8
+drwxr-xr-x 2 obaida_linux obaida_linux 4096 Oct  4 09:49 .
+drwxr-xr-x 5 obaida_linux obaida_linux 4096 Oct  4 09:49 ..

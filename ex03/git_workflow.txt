@@ -1,0 +1,18 @@
+
+Git Edit-Add-Commit-Push Cycle:
+
+1. Edit:
+   Create or modify files in your working directory.
+   Example: echo "Hello World" > test.txt
+
+2. Add (Stage):
+   Move changed files to the staging area.
+   Example: git add test.txt
+
+3. Commit:
+   Save a local snapshot of your staged changes with a message.
+   Example: git commit -m "Add test.txt file"
+
+4. Push:
+   Upload your local commits to the remote GitHub repository.
+   Example: git push
