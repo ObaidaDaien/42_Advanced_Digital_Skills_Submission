@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 04 - Forms and Inputs</title>
+</head>
+
+<body>
+
+    <h1>User Registration Form</h1>
+
+    <form action="#" method="post">
+
+
+        <p>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full_name" required minlength="3">
+        </p>
+
+
+        <p>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="8">
+        </p>
+
+
+        <p>
+            Account Type:<br>
+            <input type="radio" id="student" name="account_type" value="student" required>
+            <label for="student">Student</label>
+
+            <input type="radio" id="developer" name="account_type" value="developer">
+            <label for="developer">Developer</label>
+        </p>
+
+
+        <p>
+            <label for="track">Preferred Track:</label>
+            <select id="track" name="track" required>
+                <option value="">Choose a Track</option>
+                <option value="web">Web Development</option>
+                <option value="c-system">C System Programming</option>
+                <option value="data-ai">Data & AI</option>
+            </select>
+        </p>
+
+
+        <p>
+            <label for="bio">Short Bio:</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="50" minlength="10" required></textarea>
+        </p>
+
+
+        <p>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the Terms and Conditions</label>
+        </p>
+
+
+        <p>
+            <button type="submit">Register</button>
+        </p>
+
+    </form>
+
+</body>
+
+</html>
