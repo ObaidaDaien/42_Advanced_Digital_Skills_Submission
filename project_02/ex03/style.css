@@ -1,0 +1,57 @@
+
+.palette-container {
+  display: flex;
+  gap: 15px;
+}
+
+.swatch {
+  width: 180px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.swatch-named {
+  background-color: crimson;
+}
+
+.swatch-hex {
+  background-color: #2ecc71;
+}
+
+.swatch-rgb {
+  background-color: rgb(41, 128, 185);
+}
+
+.swatch-rgba {
+  background-color: rgba(155, 89, 182, 0.5);
+}
+
+.comparison-container {
+  display: flex;
+  gap: 30px;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.child-text {
+  color: #000000;
+}
+
+.box-opacity {
+  background-color: #e74c3c;
+  opacity: 0.5;
+}
+
+.box-rgba {
+  background-color: rgba(231, 76, 60, 0.5);
+}

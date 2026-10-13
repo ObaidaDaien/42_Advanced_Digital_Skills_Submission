@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 03: Colors & Opacity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Exercise 03: Colors and Opacity</h1>
+
+  <h2>1. Color Swatch Palette</h2>
+  <div class="palette-container">
+    <div class="swatch swatch-named">Named Color (Crimson)</div>
+    <div class="swatch swatch-hex">6-digit HEX (#2ecc71)</div>
+    <div class="swatch swatch-rgb">RGB (rgb(41, 128, 185))</div>
+    <div class="swatch swatch-rgba">RGBA (rgba(155, 89, 182, 0.5))</div>
+  </div>
+
+  <br>
+  <hr>
+
+  <h2>2. Comparison: Opacity vs RGBA</h2>
+  
+  <div class="comparison-container">
+    
+    <div class="box box-opacity">
+      <p class="child-text">This text fades because Opacity cascades to all children!</p>
+    </div>
+
+    <div class="box box-rgba">
+      <p class="child-text">This text isolates and stays 100% visible because RGBA affects only the background!</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

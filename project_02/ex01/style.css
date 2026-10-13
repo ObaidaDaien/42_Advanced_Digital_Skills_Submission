@@ -1,0 +1,40 @@
+
+
+body {
+    height: 1500px; }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #c8aa00;
+}
+
+.card {
+    position: relative;
+    top: 80px;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #e0e0e0;
+}
+
+.badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
