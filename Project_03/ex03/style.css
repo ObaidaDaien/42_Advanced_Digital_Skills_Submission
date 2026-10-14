@@ -1,0 +1,26 @@
+
+.counter-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#count-display {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #000;
+}
+
+.positive {
+    color: green !important;
+}
+
+.negative {
+    color: red !important;
+}
+
+.zero {
+    color: black !important;
+}
