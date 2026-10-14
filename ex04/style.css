@@ -1,0 +1,13 @@
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#task-list li {
+    margin-bottom: 8px;
+}
+
+#task-list button {
+    margin-left: 6px;
+}
